@@ -1,0 +1,147 @@
+/* Custom font-face rules for 'Figtree-SemiBold' */
+@font-face {
+    font-family: 'Figtree-SemiBold';
+    src: url('./assets/fonts/static/Figtree-SemiBold.ttf') format('ttf');
+}
+
+/* Custom font-face rules for 'Figtree-ExtraBold' */
+@font-face {
+    font-family: 'Figtree-ExtraBold';
+    src: url('./assets/fonts/static/Figtree-ExtraBold.ttf') format('ttf');
+}
+
+/* Body styles */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(47, 88%, 63%);
+}
+
+/* Styles for main heading (h1) */
+h1 {
+    font-weight: 800;
+    font-size: 27px;
+    margin: 0; /* Resetting default margins */
+    cursor: pointer;
+    font-family: 'Figtree-ExtraBold', sans-serif;
+}
+
+/* Hover and focus styles for main heading (h1) */
+h1:hover,
+h1:focus {
+    color: hsl(47, 88%, 63%);
+}
+
+/* Styles for subheadings (h3, h4) */
+h3, h4 {
+    font-size: 16px;
+    font-family: 'Figtree-SemiBold', sans-serif;
+}
+
+/* Styles for paragraphs (p) */
+p {
+    font-size: 16px;
+    display: inline-block;
+}
+
+/* Styles for the outer container of the blog post */
+.blog-outer-container {
+    width: 28%;
+    max-width: 1440px;
+    padding: /* top */ 30px /* right */ 20px /* bottom */ 30px /* left */ 20px;
+    margin: /* top */ 150px /* right */ 0 /* bottom */ 0 /* left */ 0;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px 0px hsl(0, 0%, 7%);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Media query for smaller screens */
+/* For screens with a width less than 376px (mobile screens) */
+@media (max-width: 375px) {
+    .blog-outer-container {
+        width: 70%;
+    }
+}
+
+/* Styles for the inner container of the blog post */
+.blog-inner-container {
+    width: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styles for images inside the blog inner container */
+.blog-inner-container img {
+    width: auto;
+    max-height: 50vh;
+    border-radius: 20px;
+}
+
+/* Styles for the element with class 'learning' */
+.learning {
+    text-align: center;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+    padding: /* top */ 10px /* right */ 23px /* bottom */ 10px /* left */ 23px;
+    margin: /* top */ 30px /* right */ 0 /* bottom */ 0 /* left */ 0;
+}
+
+/* Styles for the element with class 'published' */
+.published {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Styles for the element with class 'languages' */
+.languages {
+    line-height: 1.5em;
+    margin: /* top */ 15px /* right */ 0 /* bottom */ 0 /* left */ 0;
+    color: hsl(0, 0%, 50%);
+}
+
+/* Styles for the container representing a user profile */
+.profile-container {
+    width: auto;
+    display: flex;
+    align-items: center;
+    padding: /* top */ 10px /* right */ 0 /* bottom */ 10px /* left */ 0;
+}
+
+/* Styles for images inside the profile container */
+.profile-container img {
+    max-width: 50px;
+    height: auto;
+    margin-right: 25px;
+}
+
+/* Styles for heading (username) inside the profile container */
+.profile-container h4 {
+    font-weight: 600;
+    color: hsl(0, 0%, 7%)
+}
+
+/* Styles for the attribution section */
+.attribution { 
+    font-size: 16px; 
+    text-align: center;
+    position: relative;
+    top: 70px;
+    bottom: 0;
+    left: 0;
+    right: 0; 
+    padding: /* top */ 0px /* right */ 0 /* bottom */ 20px /* left */ 0;
+    color: hsl(0, 0%, 7%)
+}
+
+/* Styles for links within the attribution section */
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
