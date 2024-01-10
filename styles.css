@@ -64,7 +64,7 @@ p {
 /* For screens with a width less than 376px (mobile screens) */
 @media (max-width: 375px) {
     .blog-outer-container {
-        width: 70%;
+        width: auto;
     }
 }
 
