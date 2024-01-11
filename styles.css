@@ -64,20 +64,24 @@ p {
 /* For screens with a width less than 768px (mobile screens) */
 @media (max-width: 767px) {
     .blog-outer-container {
-        width: 80%;
+        width: 70%;
     }
 
     h1 {
-        font-size: 15px;
+        font-size: 27px;
     }
 
     h3, h4 {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .published {
-        font-size: 16px;
+        font-size: 20px;
         /*font-weight: normal;*/
+    }
+
+    .attribution {
+        font-size: 16px;
     }
 
     /*p {
