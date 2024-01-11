@@ -61,34 +61,10 @@ p {
 }
 
 /* Media query for smaller screens */
-/* For screens with a width less than 376px (mobile screens) */
-@media (max-width: 375px) {
+/* For screens with a width less than 768px (mobile screens) */
+@media (max-width: 767px) {
     .blog-outer-container {
         width: 80%;
-    }
-
-    h1 {
-        font-size: 15px;
-    }
-
-    h3, h4 {
-        font-size: 12px;
-    }
-
-    .published {
-        font-size: 16px;
-        /*font-weight: normal;*/
-    }
-
-    /*p {
-        font-size: 12px;
-    }*/
-}
-
-/* For screens with a width less than 721px (mobile screens) */
-@media (max-width: 720px) {
-    .blog-outer-container {
-        width: 70%;
     }
 
     h1 {
