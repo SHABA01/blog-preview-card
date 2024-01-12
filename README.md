@@ -27,15 +27,15 @@ Users should be able to:
 ### Screenshot
 
                                                       Desktop view
-![blog-desktop-view-1.png](./assets/images/blog-desktop-view-1.png)
+![blog-desktopView1.png](./assets/images/blog-desktopView1.png)
 
-![blog-desktop-view-2.png](./assets/images/blog-desktop-view-2.png)
+![blog-desktopView2.png](./assets/images/blog-desktopView2.png)
 
-![blog-desktop-view-3.png](./assets/images/blog-desktop-view-3.png)
+![blog-desktopView3.png](./assets/images/blog-desktopView3.png)
 
 
                                                       Mobile view
-![blog-mobile-view.jpg](./assets/images/blog-mobile-view.jpg)
+![blog-mobileView.jpg](./assets/images/blog-mobileView.jpg)
 
 ### Links
 
