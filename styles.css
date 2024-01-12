@@ -40,7 +40,6 @@ h2 {
     font-size: 20px;
     font-weight: bold;
     display: inline-block;
-    color: violet; /* Temporary color for debugging */
 }
 
 /* Styles for subheadings (h3) */
@@ -69,7 +68,7 @@ p {
     line-height: 1.5em;
     margin: /* top */ 15px /* right */ 0 /* bottom */ 0 /* left */ 0;
     color: hsl(0, 0%, 50%);
-    font-size: 16px;
+    font-size: 25px;
     display: inline-block;
 }
 
@@ -99,7 +98,6 @@ p {
 
     h2 {
         font-size: 11px;
-        color: lawngreen; /* Temporary color for debugging */
     }
 
     h3 {
