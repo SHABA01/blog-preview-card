@@ -40,6 +40,7 @@ h2 {
     font-size: 20px;
     font-weight: bold;
     display: inline-block;
+    color: red; /* Temporary color for debugging */
 }
 
 /* Styles for subheadings (h3) */
@@ -57,7 +58,7 @@ h3 {
 
 /* Styles for subheadings (h4) */
 h4 {
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Figtree-SemiBold', sans-serif;
     font-weight: 600;
     color: hsl(0, 0%, 7%)
@@ -100,8 +101,12 @@ p {
         font-size: 15px;
     }
 
-    h3, h4 {
+    h3 {
         font-size: 14px;
+    }
+    
+    h4 {
+        font-size: 16px;
     }
 }
 
