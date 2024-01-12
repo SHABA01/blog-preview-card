@@ -35,14 +35,39 @@ h1:focus {
     color: hsl(47, 88%, 63%);
 }
 
-/* Styles for subheadings (h3, h4) */
-h3, h4 {
-    font-size: 16px;
-    font-family: 'Figtree-SemiBold', sans-serif;
+/* Styles for subheading (h2) */
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
 }
 
-/* Styles for paragraphs (p) */
+/* Styles for subheadings (h3) */
+h3 {
+    font-size: 16px;
+    font-family: 'Figtree-SemiBold', sans-serif;
+    text-align: center;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+    padding: /* top */ 10px /* right */ 23px /* bottom */ 10px /* left */ 23px;
+    margin: /* top */ 30px /* right */ 0 /* bottom */ 0 /* left */ 0;
+}
+
+/* Styles for subheadings (h4) */
+h4 {
+    font-size: 16px;
+    font-family: 'Figtree-SemiBold', sans-serif;
+    font-weight: 600;
+    color: hsl(0, 0%, 7%)
+}
+
+/* Styles for paragraph (p) */
 p {
+    line-height: 1.5em;
+    margin: /* top */ 15px /* right */ 0 /* bottom */ 0 /* left */ 0;
+    color: hsl(0, 0%, 50%);
     font-size: 16px;
     display: inline-block;
 }
@@ -71,22 +96,13 @@ p {
         font-size: 20px;
     }
 
+    h2 {
+        font-size: 15px;
+    }
+
     h3, h4 {
         font-size: 14px;
     }
-
-    .published {
-        font-size: 15px;
-        /*font-weight: normal;*/
-    }
-
-    .attribution {
-        font-size: 10px;
-    }
-
-    /*p {
-        font-size: 12px;
-    }*/
 }
 
 /* Styles for the inner container of the blog post */
@@ -104,30 +120,6 @@ p {
     border-radius: 20px;
 }
 
-/* Styles for the element with class 'learning' */
-.learning {
-    text-align: center;
-    background-color: hsl(47, 88%, 63%);
-    border-radius: 5px;
-    width: fit-content;
-    height: fit-content;
-    padding: /* top */ 10px /* right */ 23px /* bottom */ 10px /* left */ 23px;
-    margin: /* top */ 30px /* right */ 0 /* bottom */ 0 /* left */ 0;
-}
-
-/* Styles for the element with class 'published' */
-.published {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-/* Styles for the element with class 'languages' */
-.languages {
-    line-height: 1.5em;
-    margin: /* top */ 15px /* right */ 0 /* bottom */ 0 /* left */ 0;
-    color: hsl(0, 0%, 50%);
-}
-
 /* Styles for the container representing a user profile */
 .profile-container {
     width: auto;
@@ -141,12 +133,6 @@ p {
     max-width: 50px;
     height: auto;
     margin-right: 25px;
-}
-
-/* Styles for heading (username) inside the profile container */
-.profile-container h4 {
-    font-weight: 600;
-    color: hsl(0, 0%, 7%)
 }
 
 /* Styles for the attribution section */
