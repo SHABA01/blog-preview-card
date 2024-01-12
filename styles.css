@@ -98,7 +98,8 @@ p {
     }
 
     h2 {
-        font-size: 10px;
+        font-size: 5px;
+        color: yellow; /* Temporary color for debugging */
     }
 
     h3 {
