@@ -54,7 +54,7 @@ Users should be able to:
 
 One of the key things I learnt from this project was how to create a responsive design approach where the styles are adjusted based on the screen size using a media query for smaller screens.
 
-For screens with a width larger than 768px (desktop screens)
+For screens with a width larger than 768px (desktop screens):
 
 ```css
 .blog-outer-container {
@@ -81,7 +81,7 @@ p {
     font-size: 25px;
 }
 ```
-For screens with a width less than 768px (mobile screens)
+For screens with a width less than 768px (mobile screens):
 
 ```css
 @media (max-width: 767px) {
